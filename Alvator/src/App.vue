@@ -1,34 +1,49 @@
-<script setup>
-import Time from './components/Time.vue';
-
+<script>
+import Header from './components/Header.vue';
 </script>
 
 <template>
 <div class="">
-<header class="mt-4">
-  <div class="max-w-7xl mx-auto pl-4 pr-4">
-    <div class="flex justify-between justify-items-center items-center">
-  <div class="">
-    <img src="/public/LOLO1.png" alt="" width="70px">
-  </div>
-  <nav class="text-white">
-    <ul class="flex">
-    <li class="">Главная</li>
-    <li class="">Цены</li>
-    <li class="">Игры</li>
-    <li class="">Системы</li>
-    </ul>
-  </nav>
-  <div>
-
-  </div>
-  </div>
-</div>
-</header>
-<Time/>
+  <Header/>
 </div>
 </template>
 
-<style scoped>
 
+<style>
+
+html,
+body{
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-color-primary);
+}
+
+:root {
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}
+:root {
+  --background-color-primary: #090b16;
+  --background-color-secondary:#090b16;
+  --accent-color: #cacaca;
+  --text-primary-color: #222;
+  --element-size: 4rem;
+  transition: 0.5s;
+  
+}
+
+/* Define styles for the root window with dark - mode preference */
+:root.dark-theme {
+  --background-color-primary: #ffffff;
+  --background-color-secondary: #2d2d30;
+  --accent-color: #3f3f3f;
+  --text-primary-color: #ddd;
+}
+
+
+div{
+  background-color: var(--background-color-primary);
+}
 </style>
