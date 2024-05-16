@@ -1,8 +1,6 @@
-<script>
+<script setup>
 import Time from './Time.vue';
-export default{
-  components: {Time}
-}
+
 </script>
 
 

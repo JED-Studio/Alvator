@@ -1,5 +1,6 @@
-<script>
+<script setup>
 import Header from './components/Header.vue';
+
 </script>
 
 <template>
@@ -28,7 +29,7 @@ body{
   --background-color-primary: #090b16;
   --background-color-secondary:#090b16;
   --accent-color: #cacaca;
-  --text-primary-color: #222;
+  --text-primary-color:  white;
   --element-size: 4rem;
   transition: 0.5s;
   
