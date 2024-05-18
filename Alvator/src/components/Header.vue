@@ -21,10 +21,18 @@ import Time from './Time.vue';
     </ul>
   </nav>
   <Time/>
-  <div>
-
-  </div>
+  
   </div>
 </div>
 </header>
 </template>
+
+<style scoped>
+a{
+  color: var(--text-color);
+}
+
+ul{
+  background-color: var(--background-color-ul);
+}
+</style>

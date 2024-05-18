@@ -19,15 +19,9 @@
         background-color: #7c62ff;
     }
 
-    :root {
-        --background-color-primary: #090b16;
-        --background-color-secondary:#090b16;
-        --accent-color: #cacaca;
-        --text-primary-color:  white;
-        --element-size: 4rem;
-        transition: 0.5s;
-        
-      }
+    .border_color_luna{
+        border-color: rgb(211, 21, 21);
+    }
   }
 
 
