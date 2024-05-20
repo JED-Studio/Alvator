@@ -6,7 +6,7 @@ import Time from './Time.vue';
 
 
 <template>
-    <header class="mt-4">
+    <header class="mt-4 mb-16">
   <div class="max-w-7xl mx-auto pl-4 pr-4">
     <div class="flex justify-between justify-items-center items-center">
   <div class="">

@@ -1,18 +1,15 @@
 <script setup>
 import Header from './components/Header.vue';
-
+import SectionText from './components/SectionText.vue';
+import Slider from './components/Slider.vue';
 </script>
 
 <template>
 <div class="">
   <Header/>
-  <section class="mt-4">
-    <div class="max-w-7xl mx-auto pl-4 pr-4">
-      <div class="font-medium text-center line">
-    <h1 class="">Компьютерный клуб</h1>
-    </div>
-    </div>
-  </section>
+  <SectionText/>
+  <Slider/>
+
 </div>
 </template>
 
