@@ -2,6 +2,7 @@
 import Header from './components/Header.vue';
 import SectionText from './components/SectionText.vue';
 import Slider from './components/Slider.vue';
+
 </script>
 
 <template>
