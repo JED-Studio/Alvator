@@ -38,6 +38,8 @@ body{
   --accent-color: #cacaca;
   --text-primary-color:  white;
   --text-color:white;
+  --text-color-h1:rgb(255, 255, 255);
+  --text-color-h2:rgba(255, 255, 255, .5);
   --element-size: 4rem;
   transition: 0.5s;
   
@@ -52,6 +54,8 @@ body{
   --accent-color: #3f3f3f;
   --text-primary-color: #ddd;
   --text-color:rgb(255, 255, 255);
+  --text-color-h1:rgb(0, 0, 0);
+  --text-color-h2:rgba(0, 0, 0, 0.5);
 
 }
 
