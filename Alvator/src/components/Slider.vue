@@ -1,7 +1,12 @@
+<script>
+
+</script>
+
+
 <template>
   <div class="max-w-7xl mx-auto pl-4 pr-4 mt-14">
-    <swiper-container class="gold"
-    autoplay="true"
+    <swiper-container class="gold" id="mySlider"
+  
     navigation="true"
     pagination="true"
   >
@@ -18,7 +23,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .gold{
   border-radius: 16px;
   padding: 8px;
@@ -29,9 +34,9 @@ img{
   border-radius: 8px;
 }
 
-
-.swiper-pagination-bullet {
-        background-color: blue;
-      
-    }
+swiper-container{
+  --swiper-pagination-color: rgb(55, 11, 87);
+  --swiper-navigation-size: 44px;
+  --swiper-navigation-color: black;
+}
 </style>
