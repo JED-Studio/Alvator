@@ -3,6 +3,7 @@ import Header from './components/Header.vue';
 import SectionText from './components/SectionText.vue';
 import Slider from './components/Slider.vue';
 import Tarif from './components/Tarif.vue';
+import Price from './components/Price.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import Tarif from './components/Tarif.vue';
   <SectionText/>
   <Slider/>
   <Tarif/>
+  <Price
 
 </div>
 </template>
