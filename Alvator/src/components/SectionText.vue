@@ -1,22 +1,34 @@
 <script setup>
-
+defineProps({
+  title: String,
+  title_2: String,
+  title_3: String,
+  titlesection: String
+})
 </script>
 
 
 
 <template>
-    <section class="mt-4">
+    <section :style="titlesection">
     <div class="max-w-7xl mx-auto pl-4 pr-4">
       <div class="font-medium text-center line">
-    <h1 class="h1 font-medium text-6xl">Компьютерный клуб</h1>
-    <h1 class="h1 font-medium text-6xl">ALVATOR</h1>
-    <h1 class="h2 font-medium text-1xl mt-6">Всё для эффективной игры и развития кибер-арен, компьютерных клубов и центров киберспорта в одном ПО</h1>
+    <h1 class="h1 font-medium text-6xl">{{title}}</h1>
+    <h1 class="h1 font-medium text-6xl">{{title_2}}</h1>
+    <h1 class="h2 font-medium text-1xl mt-6">{{title_3}}</h1>
     </div>
     </div>
   </section>
 </template>
 
-<style>
+<style scoped>
+title-section1{
+  margin-top: 16px;
+}
+title-section2{
+  margin-top: 100px;
+}
+
 .h1{
   color: var(--text-color-h1);
 }
