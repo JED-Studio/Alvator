@@ -4,6 +4,7 @@ import SectionText from './components/SectionText.vue';
 import Slider from './components/Slider.vue';
 import Tarif from './components/Tarif.vue';
 import Price from './components/Price.vue';
+import Game from './components/Game.vue';
 </script>
 
 <template>
@@ -11,8 +12,10 @@ import Price from './components/Price.vue';
   <Header/>
   <SectionText/>
   <Slider/>
+  <SectionText/>
   <Tarif/>
-  <Price
+  <Price/>
+  <Game/>
 
 </div>
 </template>
