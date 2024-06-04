@@ -8,7 +8,7 @@ import Game from './components/Game.vue';
 </script>
 
 <template>
-<div class="">
+<div class="alva">
   <Header/>
   <SectionText 
   :class="titlesection"
@@ -20,11 +20,11 @@ import Game from './components/Game.vue';
   <Tarif/>
   <Price/>
   <SectionText 
-  :style="title-section2"
+  :titlesection="{margin: '100px'}"
   title="Компьютерный клуб" 
   title_2="ALVATOR" 
   title_3="Всё для эффективной игры и развития кибер-арен, компьютерных клубов и центров киберспорта в одном ПО" />
-  <Slider/>
+  
 
   <Game/>
 
@@ -78,7 +78,8 @@ body{
 }
 
 
-div{
+.alva{
   background-color: var(--background-color-primary);
+  transition: 0.5s;
 }
 </style>

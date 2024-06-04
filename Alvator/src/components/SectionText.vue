@@ -3,7 +3,7 @@ defineProps({
   title: String,
   title_2: String,
   title_3: String,
-  titlesection: String
+  titlesection: Object
 })
 </script>
 
@@ -22,12 +22,6 @@ defineProps({
 </template>
 
 <style scoped>
-title-section1{
-  margin-top: 16px;
-}
-title-section2{
-  margin-top: 100px;
-}
 
 .h1{
   color: var(--text-color-h1);
