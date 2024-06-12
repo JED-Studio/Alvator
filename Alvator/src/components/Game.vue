@@ -8,7 +8,7 @@
     <section class="game-section">
   <div class="max-w-7xl mx-auto pl-4 pr-4">
     <div class="grid grid-cols-4 gap-5 ">
-    <div class=" item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl bg-[url('/public/dota-2.jpg')]" >
+    <div class=" item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" >
       <div class="item-desc text-fuchsia-50">
         <h3 class="text-2xl">Dota 2</h3>
         <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
@@ -78,4 +78,13 @@
 }
 
 
+
+
+
+
 </style>
+
+
+
+
+
