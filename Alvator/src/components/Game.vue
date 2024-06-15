@@ -98,20 +98,27 @@ export default {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.295);
 }
 
-p{
-  transform: translateY(32px);
-  transition: all 0.4s ease-in-out 0.2s;
-  opacity: 1;
-}
 
-.item-desc{
+.item-desc p{
   transform: translateY(243px);
     transition: all 0.4s ease-in-out 0.2s;
     opacity: 0;
 
 }
 
-.is-visible {
+.item-desc h3{
+  transform: translateY(243px);
+    transition: all 0.4s ease-in-out 0.2s;
+    opacity: 1;
+}
+
+.is-visible h3{
+  transform: translateY(0px);
+    transition: all 0.4s ease-in-out 0.2s;
+    opacity: 1;
+}
+
+.is-visible p{
   transform: translateY(0px);
     transition: all 0.4s ease-in-out 0.2s;
     opacity: 1;
