@@ -28,6 +28,12 @@ import Game from './components/Game.vue';
 
   <Game/>
 
+  <SectionText 
+  :titlesection="{margin: '100px'}"
+  title="Тарифы" 
+  title_2="ALVATOR" 
+  title_3="Всё для эффективной игры и развития кибер-арен, компьютерных клубов и центров киберспорта в одном ПО" />
+
 
 </div>
 </template>
