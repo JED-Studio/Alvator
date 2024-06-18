@@ -18,7 +18,7 @@ import Game from './components/Game.vue';
   <Slider/>
   <SectionText/>
   <Tarif/>
-  <Price/>
+  
   <SectionText 
   :titlesection="{margin: '100px'}"
   title="Игры клуба" 
@@ -31,7 +31,15 @@ import Game from './components/Game.vue';
   <SectionText 
   :titlesection="{margin: '100px'}"
   title="Тарифы" 
-  title_2="ALVATOR" 
+  
+  title_3="Всё для эффективной игры и развития кибер-арен, компьютерных клубов и центров киберспорта в одном ПО" />
+
+  <Price/>
+
+  <SectionText 
+  :titlesection="{margin: '100px'}"
+  title="Комплектующие" 
+  
   title_3="Всё для эффективной игры и развития кибер-арен, компьютерных клубов и центров киберспорта в одном ПО" />
 
 

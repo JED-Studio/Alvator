@@ -10,10 +10,6 @@ defineProps({
 
 
 
-
-
-
-
 const items = [
     {
         "id": 1,

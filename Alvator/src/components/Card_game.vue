@@ -5,6 +5,12 @@ defineProps({
   imageUrl: String
  
 })
+
+let imageUrl = `{{item.imageUrl}}`
+
+
+
+
 </script>
 
 <template>
