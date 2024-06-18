@@ -1,18 +1,95 @@
-<script>
-import { ref } from 'vue';
+<script setup>
+import Card_game from './Card_game.vue';
 
-export default {
-  setup() {
-    const isActive = ref(false);
-    
 
-    const toggleActive = () => {
-      isActive.value = !isActive.value;
-    };
+defineProps({
+  items: Array
+})
 
-    return { isActive, toggleActive };
-  }
-};
+
+
+
+
+
+
+
+
+const items = [
+    {
+        "id": 1,
+        "title": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "/sneakers/sneakers-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "/sneakers/sneakers-2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "/sneakers/sneakers-3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+      
+        "imageUrl": "/sneakers/sneakers-4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+      
+        "imageUrl": "/sneakers/sneakers-5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+      
+        "imageUrl": "/sneakers/sneakers-6.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+      
+        "imageUrl": "/sneakers/sneakers-7.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+      
+        "imageUrl": "/sneakers/sneakers-8.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "/sneakers/sneakers-9.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "/sneakers/sneakers-10.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+      
+        "imageUrl": "/sneakers/sneakers-11.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+      
+        "imageUrl": "/sneakers/sneakers-12.jpg"
+    }
+]
+
+
 </script>
 
 
@@ -22,64 +99,13 @@ export default {
     <section class="game-section">
   <div class="max-w-7xl mx-auto pl-4 pr-4">
     <div class="grid grid-cols-4 gap-5 ">
-    <div class=" item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/dota-2.jpg);"
-    @click="toggleActive" >
-      <div class="item-desc text-fuchsia-50" :class="{ 'is-visible': isActive }">
-        
-        <h3 class="text-2xl">Dota 2</h3>
-        <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-      </div>
-    </div>
-    <div class="item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/dota-2.jpg);">
-      <div class="item-desc">
-        <h3>Dota 2</h3>
-        <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-      </div>
-    </div>
-    <div class="item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/dota-2.jpg);">
-      <div class="item-desc">
-        <h3>Dota 2</h3>
-        <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-      </div>
-    </div>
-    <div class="item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/dota-2.jpg);">
-      <div class="item-desc">
-        <h3>Dota 2</h3>
-        <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-      </div>
-    </div>
-    <div class="item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/dota-2.jpg);">
-      <div class="item-desc">
-        <h3>Dota 2</h3>
-        <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-      </div>
-    </div>
-    <div class="item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/dota-2.jpg);">
-      <div class="item-desc">
-        <h3>Dota 2</h3>
-        <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-      </div>
-    </div>
-    <div class="item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/fortnite.jpg);">
-      <div class="item-desc">
-        <h3>Dota 2</h3>
-        <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-      </div>
-    </div>
-    <div class="item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 transition hover:shadow-xl" style="background-image: url(public/загруженное.jpeg);">
-      <div class="item-desc">
-        <h3>Dota 2</h3>
-        <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-      </div>
-    </div>
+   <Card_game
+   v-for="item in items"
+   :key="item.id"
+   
+   :title="item.title"
+   :imageUrl="item.imageUrl"
+   />
   </div>
 </div>
     
@@ -88,50 +114,7 @@ export default {
 </template>
 
 <style scoped>
-.item{
-  background: #00000000 no-repeat center center/cover;
-  overflow: hidden; 
-  color: white;
-  position: relative;
-}
 
-.item::before{
-  content: "";
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
-}
-
-
-
-.item-desc p{
-  transform: translateY(243px);
-    transition: all 0.4s ease-in-out 0.2s;
-    opacity: 0;
-
-}
-
-.item-desc h3{
-  transform: translateY(243px);
-    transition: all 0.4s ease-in-out 0.2s;
-    opacity: 1;
-}
-
-.is-visible h3{
-  transform: translateY(0px);
-    transition: all 0.4s ease-in-out 0.2s;
-    opacity: 1;
-}
-
-.is-visible p{
-  transform: translateY(0px);
-    transition: all 0.4s ease-in-out 0.2s;
-    opacity: 1;
-}
 
 
 </style>
