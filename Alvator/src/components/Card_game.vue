@@ -1,7 +1,8 @@
 
 <script setup>
-defineProps({
+const props = defineProps({
   title: String,
+  title1: String,
   imageUrl: String
  
 })
@@ -14,11 +15,13 @@ let imageUrl = `{{item.imageUrl}}`
 </script>
 
 <template>
-    <div class=" item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl"  :style="{ backgroundImage: 'url(' + imageUrl + ')' }">
+    <div class=" item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" 
+   
+    :style="{ backgroundImage: 'url(' + imageUrl + ')' }">
       <div class="item-desc text-fuchsia-50">
         
-        <h3 class="text-2xl">Dota 2</h3>
-        <p>{{title}}</p>
+        <h3 class="text-2xl">{{title}}</h3>
+        <p>{{title1}}</p>
       </div>
     </div>
 </template>
@@ -45,26 +48,26 @@ let imageUrl = `{{item.imageUrl}}`
 
 
 
-.item-desc p{
+ .item-desc p{
   transform: translateY(243px);
     transition: all 0.4s ease-in-out 0.2s;
     opacity: 0;
 
 }
 
-.item-desc h3{
+ .item-desc h3{
   transform: translateY(243px);
     transition: all 0.4s ease-in-out 0.2s;
-    opacity: 1;
+    opacity: 0;
 }
 
-.is-visible h3{
+ .item-desc.active h3{
   transform: translateY(0px);
     transition: all 0.4s ease-in-out 0.2s;
     opacity: 1;
 }
 
-.is-visible p{
+ .item-desc.active p{
   transform: translateY(0px);
     transition: all 0.4s ease-in-out 0.2s;
     opacity: 1;
