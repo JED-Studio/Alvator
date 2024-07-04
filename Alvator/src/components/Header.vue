@@ -10,7 +10,7 @@ import Time from './Time.vue';
   <div class="max-w-7xl mx-auto pl-4 pr-4">
     <div class="flex justify-between justify-items-center items-center">
   <div class="">
-    <img src="/public/LOLO1.png" alt="" width="70px">
+    <img src="/public/palvator 2.svg" alt="" width="170px">
   </div>
   <nav class="text-white">
     <ul class="flex bg-neutral-1000 rounded-2xl py-18">

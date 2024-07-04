@@ -13,7 +13,7 @@ import Game from './components/Game.vue';
   <SectionText 
   :class="titlesection"
   title="Компьютерный клуб" 
-  title_2="ALVATOR" 
+  title_2="SALVATOR" 
   title_3="Всё для эффективной игры и развития кибер-арен, компьютерных клубов и центров киберспорта в одном ПО" />
   <Slider/>
   <SectionText/>
@@ -22,7 +22,7 @@ import Game from './components/Game.vue';
   <SectionText 
   :titlesection="{margin: '100px'}"
   title="Игры клуба" 
-  title_2="ALVATOR" 
+  title_2="SALVATOR" 
   title_3="Всё для эффективной игры и развития кибер-арен, компьютерных клубов и центров киберспорта в одном ПО" />
   
 
