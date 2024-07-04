@@ -52,13 +52,17 @@ const toggleActive = () => {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
 
-
-
- .item-desc h3,
- .item-desc p{
-  transform: translateY(243px);
+.item-desc h3{
+  transform: translateY(170px);
     transition: all 0.4s ease-in-out 0.2s;
     opacity: 1;
+}
+
+
+ .item-desc p{
+  transform: translateY(170px);
+    transition: all 0.4s ease-in-out 0.2s;
+    opacity: 0;
 }
 
  

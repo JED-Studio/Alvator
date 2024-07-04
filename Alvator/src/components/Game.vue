@@ -14,7 +14,7 @@ defineProps({
 const items = [
     {
         "id": 1,
-        "title":"DLOX",
+        "title":"Dota 2",
         "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
         
         "imageUrl": "public/dota-2.jpg",
@@ -22,12 +22,77 @@ const items = [
     },
     {
         "id": 2,
-        "title": "Sneakers",
-        "title1": "Grud zalup msititeli",
+        "title":"Dota 2",
+        "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
         
-        "imageUrl": "/sneakers/sneakers-2.jpg",
-        
+        "imageUrl": "public/dota-2.jpg",
+       
     },
+    {
+        "id": 3,
+        "title":"Dota 2",
+        "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "public/dota-2.jpg",
+       
+    },
+    {
+        "id": 4,
+        "title":"Dota 2",
+        "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "public/dota-2.jpg",
+       
+    },
+    {
+        "id": 5,
+        "title":"Dota 2",
+        "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "public/dota-2.jpg",
+       
+    },
+    {
+        "id": 6,
+        "title":"Dota 2",
+        "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "public/dota-2.jpg",
+       
+    },
+    {
+        "id": 7,
+        "title":"Dota 2",
+        "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "public/dota-2.jpg",
+       
+    },
+    {
+        "id": 8,
+        "title":"Dota 2",
+        "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "public/dota-2.jpg",
+       
+    },
+    {
+        "id": 9,
+        "title":"Dota 2",
+        "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "public/dota-2.jpg",
+       
+    },
+    {
+        "id": 10,
+        "title":"Dota 2",
+        "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
+        
+        "imageUrl": "public/dota-2.jpg",
+       
+    },
+   
 ]
 
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-w-7xl mx-auto pl-4 pr-4">
     <div id="map" style="width: 100%; height: 400px;"></div>
   </div>
 </template>
@@ -24,6 +24,7 @@ export default {
 
 <style>
 #map {
+ 
   height: 400px;
 }
 </style>
