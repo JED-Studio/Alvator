@@ -1,5 +1,6 @@
 
 <script setup>
+import { ref } from 'vue';
 const props = defineProps({
   title: String,
   title1: String,
@@ -7,16 +8,21 @@ const props = defineProps({
  
 })
 
-let imageUrl = `{{item.imageUrl}}`
 
 
+const isActive = ref(false);
+
+const toggleActive = () => {
+  isActive.value = !isActive.value;
+}
 
 
 </script>
 
 <template>
     <div class=" item bg-white border border-slate-100 rounded-3xl p-8 cursor-pointer transition hover:-translate-y-2 hover:shadow-xl" 
-   
+    @click="toggleActive"
+    :class="{'item-desc':true, 'active': isActive }"
     :style="{ backgroundImage: 'url(' + imageUrl + ')' }">
       <div class="item-desc text-fuchsia-50">
         
@@ -48,25 +54,15 @@ let imageUrl = `{{item.imageUrl}}`
 
 
 
+ .item-desc h3,
  .item-desc p{
   transform: translateY(243px);
-    transition: all 0.4s ease-in-out 0.2s;
-    opacity: 0;
-
-}
-
- .item-desc h3{
-  transform: translateY(243px);
-    transition: all 0.4s ease-in-out 0.2s;
-    opacity: 0;
-}
-
- .item-desc.active h3{
-  transform: translateY(0px);
     transition: all 0.4s ease-in-out 0.2s;
     opacity: 1;
 }
 
+ 
+.item-desc.active h3,
  .item-desc.active p{
   transform: translateY(0px);
     transition: all 0.4s ease-in-out 0.2s;

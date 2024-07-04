@@ -18,7 +18,7 @@ const items = [
         "title1": " Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.",
         
         "imageUrl": "public/dota-2.jpg",
-        "isVisible": false
+       
     },
     {
         "id": 2,
@@ -26,7 +26,7 @@ const items = [
         "title1": "Grud zalup msititeli",
         
         "imageUrl": "/sneakers/sneakers-2.jpg",
-        "isVisible": false
+        
     },
 ]
 
