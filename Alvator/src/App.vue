@@ -5,6 +5,7 @@ import Slider from './components/Slider.vue';
 import Tarif from './components/Tarif.vue';
 import Price from './components/Price.vue';
 import Game from './components/Game.vue';
+import YandexMap from './components/YandexMap.vue';
 </script>
 
 <template>
@@ -43,6 +44,7 @@ import Game from './components/Game.vue';
   title_3="Всё для эффективной игры и развития кибер-арен, компьютерных клубов и центров киберспорта в одном ПО" />
 
 
+<YandexMap/>
 </div>
 </template>
 
