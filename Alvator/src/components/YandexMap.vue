@@ -12,8 +12,8 @@ export default {
     script.onload = () => {
       ymaps.ready(() => {
         const myMap = new ymaps.Map('map', {
-          center: [55.76, 37.64],
-          zoom: 10
+          center: [42.905611917688695,47.60829275463103],
+          zoom:18
         });
       });
     };

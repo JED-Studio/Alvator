@@ -53,14 +53,14 @@ const toggleActive = () => {
 }
 
 .item-desc h3{
-  transform: translateY(170px);
+  transform: translateY(210px);
     transition: all 0.4s ease-in-out 0.2s;
     opacity: 1;
 }
 
 
  .item-desc p{
-  transform: translateY(170px);
+  transform: translateY(210px);
     transition: all 0.4s ease-in-out 0.2s;
     opacity: 0;
 }
