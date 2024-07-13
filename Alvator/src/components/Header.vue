@@ -10,8 +10,7 @@ import Time from './Time.vue';
   <div class="max-w-7xl mx-auto pl-4 pr-4">
     <div class="flex justify-between justify-items-center items-center">
   <div class=" text-gray-50 ">
-    <p>SALVATOR<br>cyber club
-    </p>
+    <img src="/public/SALVATOR.svg" alt="" style="width: 150px;">  
   </div>
   <nav class="text-white">
     <ul class="flex bg-neutral-1000 rounded-2xl py-18">
@@ -36,4 +35,7 @@ a{
 ul{
   background-color: var(--background-color-ul);
 }
+
+
+
 </style>
